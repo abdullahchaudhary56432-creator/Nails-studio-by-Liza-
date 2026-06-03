@@ -1,0 +1,6 @@
+{
+  "name": "Nails Studio by Liza",
+  "description": "A luxury nail salon website with pink and off-white styling, featuring different styles, pictures, and videos of nails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
