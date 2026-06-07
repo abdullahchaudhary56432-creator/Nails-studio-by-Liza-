@@ -9,10 +9,12 @@ import { BookingModal } from './components/BookingModal';
 import { OrderTrackingModal } from './components/OrderTrackingModal';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { LimitedTimeOffers } from './components/LimitedTimeOffers';
 import { FeaturesSection } from './components/FeaturesSection';
 import { AdSection } from './components/AdSection';
 import { ShapeGuideSection } from './components/ShapeGuideSection';
 import { StylesSection } from './components/StylesSection';
+import { StyleQuiz } from './components/StyleQuiz';
 import { PriceCalculator } from './components/PriceCalculator';
 import { ColorPalette } from './components/ColorPalette';
 import { PricingSection } from './components/PricingSection';
@@ -56,10 +58,12 @@ function AppContent() {
         onTrackOrderClick={handleTrackOrderClick} 
       />
       <Hero />
+      <FadeInSection><LimitedTimeOffers onBookClick={handleBookClick} /></FadeInSection>
       <FadeInSection><FeaturesSection /></FadeInSection>
       <FadeInSection><AdSection /></FadeInSection>
       <FadeInSection><ShapeGuideSection /></FadeInSection>
       <FadeInSection><StylesSection /></FadeInSection>
+      <FadeInSection><StyleQuiz onBookClick={handleBookClick} /></FadeInSection>
       <FadeInSection><ColorPalette /></FadeInSection>
       <FadeInSection><PriceCalculator /></FadeInSection>
       <FadeInSection><PricingSection /></FadeInSection>
