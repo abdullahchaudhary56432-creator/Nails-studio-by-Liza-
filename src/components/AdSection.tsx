@@ -66,6 +66,8 @@ export const AdSection = () => {
               <img 
                 src={generatedNailImg} 
                 alt="Stylish Nail Art" 
+                loading="lazy"
+                decoding="async"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-pink-900/40 via-transparent to-transparent pointer-events-none"></div>

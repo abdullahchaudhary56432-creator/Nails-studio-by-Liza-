@@ -10,6 +10,8 @@ export const BookingCTA = ({ onBookClick }: { onBookClick: () => void }) => {
         <img 
           src="https://images.unsplash.com/photo-1519014816548-bf5fe059e98b?auto=format&fit=crop&q=80" 
           alt="Spa background" 
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover opacity-10"
         />
         <div className="absolute inset-0 bg-brand-pink-900/90 mix-blend-multiply"></div>

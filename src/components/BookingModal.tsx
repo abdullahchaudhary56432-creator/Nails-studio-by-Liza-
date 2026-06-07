@@ -148,7 +148,7 @@ export const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
                         onClick={() => setSelectedTech(tech.id)}
                         className={`w-full flex items-center p-4 rounded-2xl border-2 transition-all text-left ${selectedTech === tech.id ? 'border-brand-pink-600 bg-brand-pink-50' : 'border-gray-100 hover:border-brand-pink-200 hover:bg-gray-50'}`}
                       >
-                        <img src={tech.image} alt={tech.name} className="w-14 h-14 rounded-full object-cover mr-4" />
+                        <img src={tech.image} alt={tech.name} loading="lazy" decoding="async" className="w-14 h-14 rounded-full object-cover mr-4" />
                         <div className="flex-1">
                           <h4 className="font-serif text-lg text-brand-pink-900">{tech.name}</h4>
                           <p className="text-gray-500 text-sm">{tech.role}</p>

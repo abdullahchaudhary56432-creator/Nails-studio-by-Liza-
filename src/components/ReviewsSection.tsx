@@ -95,18 +95,7 @@ export const ReviewsSection = () => {
             </AnimatePresence>
           </div>
 
-          {/* Dots Navigation */}
-          <div className="flex justify-center gap-2 mt-8">
-            {reviewsData.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`transition-all duration-300 rounded-full h-2 
-                  ${currentIndex === index ? 'w-8 bg-brand-pink-400' : 'w-2 bg-brand-pink-800'}`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
+
         </div>
       </div>
     </section>

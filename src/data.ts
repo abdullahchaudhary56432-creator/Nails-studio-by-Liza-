@@ -35,69 +35,62 @@ export const galleryImages = [
 ];
 
 export const reviewsData = [
-  {
-    id: 1,
-    name: 'Sarah M.',
-    rating: 5,
-    text: 'Absolutely in love with my acrylics! Liza is so talented and pays attention to every single detail. The studio is so relaxing and clean.',
-    date: '2 weeks ago'
-  },
-  {
-    id: 2,
-    name: 'Emily R.',
-    rating: 5,
-    text: 'Best nail tech in town. My gel polish has lasted over 3 weeks without chipping. The pink and off-white aesthetic of the studio is beautiful!',
-    date: '1 month ago'
-  },
-  {
-    id: 3,
-    name: 'Jessica T.',
-    rating: 5,
-    text: 'I showed her a reference picture from Pinterest and she executed it perfectly. I am so happy with my custom nail art!',
-    date: '3 weeks ago'
-  },
-  {
-    id: 4,
-    name: 'Aisha K.',
-    rating: 5,
-    text: 'Such a wonderful experience! The attention to detail for my builder gel overlay was incredible. My natural nails have never looked so healthy.',
-    date: '1 week ago'
-  },
-  {
-    id: 5,
-    name: 'Chloe B.',
-    rating: 4,
-    text: 'Beautiful ombre design for my wedding. The studio was very accommodating and made sure the color was exactly what I wanted.',
-    date: '2 months ago'
-  },
-  {
-    id: 6,
-    name: 'Natasha W.',
-    rating: 5,
-    text: 'Always a 5-star experience. The hygiene standards here are top tier and the tools are always sterilized. Love my chrome finish!',
-    date: 'Just now'
-  }
-];
-
-export const videoClips = [
-  {
-    id: 'v1',
-    title: 'Nail extensions in progress',
-    thumbnail: 'https://images.unsplash.com/photo-1605383567799-a41dc68a2bf0?auto=format&fit=crop&w=800&q=80',
-    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-  },
-  {
-    id: 'v2',
-    title: 'Our Clean studio',
-    thumbnail: 'https://images.unsplash.com/photo-1516975080661-46b0a9cd1b84?auto=format&fit=crop&w=800&q=80',
-    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-  },
-  {
-    id: 'v3',
-    title: 'Fine details',
-    thumbnail: 'https://images.unsplash.com/photo-1707335198906-bf75c7b39976?auto=format&fit=crop&w=800&q=80',
-    videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-  }
+  { id: 1, name: 'Sarah M.', rating: 5, text: 'Absolutely in love with my acrylics! Liza is so talented and pays attention to every single detail. The studio is so relaxing and clean.', date: '2 weeks ago' },
+  { id: 2, name: 'Emily R.', rating: 5, text: 'Best nail tech in town. My gel polish has lasted over 3 weeks without chipping. The pink and off-white aesthetic of the studio is beautiful!', date: '1 month ago' },
+  { id: 3, name: 'Jessica T.', rating: 5, text: 'I showed her a reference picture from Pinterest and she executed it perfectly. I am so happy with my custom nail art!', date: '3 weeks ago' },
+  { id: 4, name: 'Aisha K.', rating: 5, text: 'Such a wonderful experience! The attention to detail for my builder gel overlay was incredible. My natural nails have never looked so healthy.', date: '1 week ago' },
+  { id: 5, name: 'Chloe B.', rating: 4, text: 'Beautiful ombre design for my wedding. The studio was very accommodating and made sure the color was exactly what I wanted.', date: '2 months ago' },
+  { id: 6, name: 'Natasha W.', rating: 5, text: 'Always a 5-star experience. The hygiene standards here are top tier and the tools are always sterilized. Love my chrome finish!', date: 'Just now' },
+  { id: 7, name: 'Olivia H.', rating: 5, text: 'Absolutely love my nail art! Can\'t wait to come back next month.', date: '1 day ago' },
+  { id: 8, name: 'Mia S.', rating: 5, text: 'The nail builder gel worked wonders for my brittle nails. Highly recommended.', date: '3 days ago' },
+  { id: 9, name: 'Sophia P.', rating: 5, text: 'Super professional and the vibe is just incredible.', date: '1 week ago' },
+  { id: 10, name: 'Ava L.', rating: 4, text: 'I got the soft gel extensions and they look completely natural.', date: '2 weeks ago' },
+  { id: 11, name: 'Isabella C.', rating: 5, text: 'Got an appointment super fast, and the work was flawless.', date: '2 weeks ago' },
+  { id: 12, name: 'Emma J.', rating: 5, text: 'Honestly the longest lasting set of nails I have ever had. Still perfect after 4 weeks.', date: '3 weeks ago' },
+  { id: 13, name: 'Charlotte F.', rating: 5, text: 'I travel 40 minutes just to get my nails done here. Worth every penny!', date: '1 month ago' },
+  { id: 14, name: 'Amelia T.', rating: 5, text: 'The attention to cuticle care is unmatched. Flawless application.', date: '1 month ago' },
+  { id: 15, name: 'Harper K.', rating: 5, text: 'So gentle and kind! Also, the nail art is simply stunning.', date: '2 months ago' },
+  { id: 16, name: 'Evelyn D.', rating: 5, text: 'Such a relaxing spa pedicure. Will be a regular from now on.', date: '2 months ago' },
+  { id: 17, name: 'Abigail G.', rating: 4, text: 'Loved the French tips. Clean lines and great customer service.', date: '2 months ago' },
+  { id: 18, name: 'Emily N.', rating: 5, text: 'Very precise with the nail shapes. My almond nails are completely symmetrical!', date: '3 months ago' },
+  { id: 19, name: 'Elizabeth B.', rating: 5, text: 'My go-to nail salon for everything art! Just amazing.', date: '3 months ago' },
+  { id: 20, name: 'Mila V.', rating: 5, text: 'She matched the color to my dress perfectly for my event.', date: '3 months ago' },
+  { id: 21, name: 'Ella M.', rating: 5, text: 'The acrylics are so light, they feel like my own natural nails.', date: '4 months ago' },
+  { id: 22, name: 'Avery C.', rating: 4, text: 'Gorgeous setup of the studio. The service was fantastic.', date: '4 months ago' },
+  { id: 23, name: 'Sofia R.', rating: 5, text: 'Top hygiene standards! Everything is sterilized in a pouch before use.', date: '5 months ago' },
+  { id: 24, name: 'Camila A.', rating: 5, text: 'Best cat eye nails I have ever gotten. The dimension is unreal.', date: '5 months ago' },
+  { id: 25, name: 'Aria H.', rating: 5, text: 'Her 3D flower designs are out of this world.', date: '6 months ago' },
+  { id: 26, name: 'Scarlett L.', rating: 5, text: 'Perfect stiletto shape. Edgy but perfectly executed.', date: '6 months ago' },
+  { id: 27, name: 'Victoria M.', rating: 4, text: 'Really enjoyed my relaxing evening here. Nails are gorgeous.', date: '6 months ago' },
+  { id: 28, name: 'Madison E.', rating: 5, text: 'The chrome finish is completely smooth and mirror-like. Incredible.', date: '7 months ago' },
+  { id: 29, name: 'Luna W.', rating: 5, text: 'Liza is a true artist! Loved my celestial themed nails.', date: '7 months ago' },
+  { id: 30, name: 'Grace O.', rating: 5, text: 'Excellent retention! Not a single lift after 3 weeks of heavy work.', date: '8 months ago' },
+  { id: 31, name: 'Chloe Y.', rating: 5, text: 'A completely pain-free and perfect Russian manicure.', date: '8 months ago' },
+  { id: 32, name: 'Penelope G.', rating: 5, text: 'Great prices for such luxurious quality and experience.', date: '9 months ago' },
+  { id: 33, name: 'Layla F.', rating: 5, text: 'My wedding nails were perfect! It made my big day extra special.', date: '9 months ago' },
+  { id: 34, name: 'Riley S.', rating: 4, text: 'Fast, efficient, and beautifully done.', date: '10 months ago' },
+  { id: 35, name: 'Zoey N.', rating: 5, text: 'Such sweet staff and incredible detailed line work.', date: '10 months ago' },
+  { id: 36, name: 'Nora D.', rating: 5, text: 'Never going to another tech again! Liza is phenomenal.', date: '11 months ago' },
+  { id: 37, name: 'Lily C.', rating: 5, text: 'Perfect square shape with incredibly sharp corners. Exactly what I asked for.', date: '11 months ago' },
+  { id: 38, name: 'Eleanor P.', rating: 5, text: 'Very impressive hand-painted details. It looks better than the reference photo!', date: '1 year ago' },
+  { id: 39, name: 'Hannah B.', rating: 5, text: 'Beautiful ambiance and my nails look spectacular.', date: '1 year ago' },
+  { id: 40, name: 'Lillian H.', rating: 4, text: 'Clean work and very sanitary environment. Extremely pleased.', date: '1 year ago' },
+  { id: 41, name: 'Addison T.', rating: 5, text: 'Absolutely adorable butterfly decals. I am obsessed!', date: '1 year ago' },
+  { id: 42, name: 'Aubrey L.', rating: 5, text: 'I always get compliments on my nails after coming here.', date: '1 year ago' },
+  { id: 43, name: 'Ellie W.', rating: 5, text: 'The jelly polish colors she has are the cutest ever.', date: '1 year ago' },
+  { id: 44, name: 'Stella M.', rating: 5, text: 'They managed to fix a really bad job from another salon and made them look new.', date: '1 year ago' },
+  { id: 45, name: 'Natalie F.', rating: 5, text: 'The rose gold ombre glitter was blended perfectly.', date: '1 year ago' },
+  { id: 46, name: 'Zoe R.', rating: 4, text: 'Love my short jelly nails. Really tidy cuticle work.', date: '1 year ago' },
+  { id: 47, name: 'Leah K.', rating: 5, text: 'The pedicure felt extremely premium and hygienic. Very satisfied.', date: '1 year ago' },
+  { id: 48, name: 'Hazel S.', rating: 5, text: 'I am amazed at the longevity of these extensions. They feel solid.', date: '1 year ago' },
+  { id: 49, name: 'Violet J.', rating: 5, text: 'I love the clean aesthetic of the salon and my chic French tips!', date: '1 year ago' },
+  { id: 50, name: 'Aurora P.', rating: 5, text: 'She is so gentle taking off old acrylics. Usually it hurts but not with her!', date: '1 year ago' },
+  { id: 51, name: 'Savannah A.', rating: 5, text: 'Best matte top coat I have ever had. It didn\'t stain at all!', date: '1 year ago' },
+  { id: 52, name: 'Audrey C.', rating: 4, text: 'Beautiful intricate gold line details. Masterpiece!', date: '1 year ago' },
+  { id: 53, name: 'Brooklyn M.', rating: 5, text: 'Liza is a perfectionist and you can tell she loves what she does.', date: '1 year ago' },
+  { id: 54, name: 'Bella E.', rating: 5, text: 'I am so glad I found this studio. Consistently amazing results.', date: '1 year ago' },
+  { id: 55, name: 'Claire H.', rating: 5, text: 'Beautiful glossy finish that hasn\'t dulled even after two weeks.', date: '1 year ago' },
+  { id: 56, name: 'Skylar T.', rating: 5, text: 'My nails are so incredibly shiny and the shape is perfect.', date: '1 year ago' }
 ];
 
 export const pricingData = [

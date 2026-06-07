@@ -57,6 +57,8 @@ export const InstagramFeed = () => {
               <img 
                 src={post.image} 
                 alt="Nails Studio by Liza" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
               />

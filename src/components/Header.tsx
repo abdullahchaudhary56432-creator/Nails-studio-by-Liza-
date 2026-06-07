@@ -3,6 +3,8 @@ import { Menu, X, Search, Heart, Package, Volume2, VolumeX } from 'lucide-react'
 import { motion, useScroll, useSpring } from 'motion/react';
 import { useAudio } from '../contexts/AudioContext';
 
+import { PushNotificationToggle } from './PushNotificationToggle';
+
 export const Header = ({ onBookClick, onTrackOrderClick }: { onBookClick: () => void, onTrackOrderClick: () => void }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -69,6 +71,9 @@ export const Header = ({ onBookClick, onTrackOrderClick }: { onBookClick: () => 
           <button onClick={onTrackOrderClick} className="text-brand-pink-900 hover:text-brand-pink-600 transition-colors mr-2" aria-label="Track Order" title="Track Order">
             <Package className="w-5 h-5" />
           </button>
+          <div className="mr-2">
+            <PushNotificationToggle />
+          </div>
           <button 
             onClick={handleLangToggle}
             className="text-xs font-semibold tracking-widest text-brand-pink-900 border border-brand-pink-200 px-2 py-1 rounded-sm hover:bg-brand-pink-100 transition-colors"
@@ -93,6 +98,7 @@ export const Header = ({ onBookClick, onTrackOrderClick }: { onBookClick: () => 
           <button onClick={onTrackOrderClick} className="text-brand-pink-900 hover:text-brand-pink-600 transition-colors" aria-label="Track Order">
             <Package className="w-5 h-5" />
           </button>
+          <PushNotificationToggle />
           {/* Mobile menu button */}
           <button className="text-brand-pink-900" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
